@@ -1,0 +1,793 @@
+.div_logo_altex {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.div_top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    margin-bottom: 60px;
+    font-family: Arial, Helvetica;
+    z-index: 100;
+}
+
+.nr_de_produse_favorite {
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(208, 6, 6);
+    position: absolute;
+    top: -16px;
+    left: 65px;
+}
+
+.nr_de_produse_favorite2 {
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(208, 6, 6);
+    position: absolute;
+    top: -16px;
+    left: 67px;
+}
+
+.text_salvate {
+    width: 70px;
+    margin-left: 85px;
+    font-family: Arial, Helvetica;
+}
+
+.logo_save {
+    width: 70px;
+    height: 45px;
+    margin-right: -95px;
+}
+
+.logo_altex {
+    width: 150px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.afisare_telefoane_favorite2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* Reglează numărul de coloane */
+    grid-gap: 0px;
+    /* Distanta între elemente */
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.afisare_telefoane_salvate {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* Reglează numărul de coloane */
+    grid-gap: -10px;
+    /* Distanta între elemente */
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.cart-link {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-right: 40px;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo_cart {
+    margin-top: -4px;
+    margin-left: 52px;
+    width: 45px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.logo_cart2 {
+    margin-top: -2px;
+    margin-left: 49px;
+    width: 45px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+}
+
+.salvate_pt_mai_tarziu {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo_cont {
+    width: 75px;
+    margin-right: -15px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    width: 425px;
+    height: 45px;
+    border-radius: 0 7px 0 7px;
+    border: 1px solid rgb(184, 181, 181);
+    padding-left: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.nr_de_produse_in_cos {
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(208, 6, 6);
+    position: absolute;
+    margin-top: -24px;
+    margin-left: -34px;
+    margin-right: 18px;
+}
+
+.nr_de_produse_in_cos2 {
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(208, 6, 6);
+    position: absolute;
+    margin-top: -24px;
+    margin-left: -36px;
+    margin-right: 18px;
+}
+
+.button_cont {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 60px;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.button_cos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 92px;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    font-family: Helvetica;
+    margin-top: 7px;
+}
+
+.div_top2 {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: rgb(208, 6, 6);
+    position: fixed;
+    top: 75px;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.chenar1 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: rgb(208, 6, 6);
+}
+
+.chenar3 {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+}
+
+.chenar2 {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    background-color: rgb(208, 6, 6);
+    justify-content: space-between;
+    color: white;
+    font-family: Arial;
+    min-width: 200px;
+}
+
+.chenar2 div {
+    flex: 1;
+    /* Forțează fiecare div să aibă un spațiu echitabil */
+    display: flex;
+    justify-content: center;
+    /* Centrează textul în interiorul fiecărui div */
+    align-items: center;
+    /* Centrează vertical */
+}
+
+.div_top2_spatiu {
+    margin-right: 10px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.icon_hamburger {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.part1_chenar2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 15px;
+    border-right: 1px solid white;
+}
+
+.div_secundar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.div_bottom_1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+    position: fixed;
+    top: 125px;
+    background-color: white;
+    height: 650px;
+    overflow: auto;
+    /* Permite derularea conținutului */
+    padding: 10px;
+}
+
+.clase {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.patrate {
+    width: 20px;
+    /* Setează dimensiunea imaginii (poți ajusta în funcție de necesități) */
+    height: 20px;
+    /* Asigură-te că imaginea are dimensiuni egale pentru aliniere corectă */
+    object-fit: contain;
+    /* Asigură-te că imaginea se încadrează corect în spațiul definit */
+    cursor: pointer;
+}
+
+.patrate_2 {
+    width: 20px;
+    /* Setează dimensiunea imaginii (poți ajusta în funcție de necesități) */
+    height: 20px;
+    /* Asigură-te că imaginea are dimensiuni egale pentru aliniere corectă */
+    object-fit: contain;
+    /* Asigură-te că imaginea se încadrează corect în spațiul definit */
+    cursor: pointer;
+}
+
+.bottom_par1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.subclase {
+    display: flex;
+    align-items: center;
+    /* Aliniaza vertical textul și imaginea */
+    gap: 10px;
+    /* Spațiu între imagine și text */
+    margin: 0;
+    /* Elimină marginea implicită a paragrafului */
+    margin-top: 10px;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+.placeholder2 {
+    width: 150px;
+    height: 40px;
+    border-radius: 0 5px 0 5px;
+    border: 1px solid rgb(184, 181, 181);
+    margin-top: 7px;
+    padding-left: 5px;
+}
+
+.rating {
+    margin-top: 10px;
+    display: inline;
+}
+
+.star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    /* Default empty star color */
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.star.full {
+    background-color: yellow;
+    /* Color for filled stars */
+}
+
+.div_bottom {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.div_bottom2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-left: 320px;
+    margin-top: 110px;
+}
+
+.Categorie {
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.afisare_titlul {
+    display: flex;
+    flex-direction: column;
+}
+
+.afisare_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 22px;
+}
+
+.sortare {
+    width: 160px;
+    height: 38px;
+    font-size: 15px;
+    border-radius: 0 7px 0 7px;
+    border: 2px solid rgb(184, 181, 181);
+    background-color: white;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.nr_produse {
+    margin-left: 5px;
+    font-size: 20px;
+    color: rgb(144, 141, 141);
+    width: 100%;
+}
+
+.afisare_telefoane {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* Reglează numărul de coloane */
+    grid-gap: 20px;
+    /* Distanta între elemente */
+    padding: 20px;
+}
+
+.imagini_telefoane {
+    width: 200px;
+    padding-left: 12px;
+    padding-right: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.structura_produs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    border: 1px solid rgb(173, 171, 171);
+    border-radius: 10px;
+    max-width: 240px;
+    height: 460px;
+    width: 280px;
+    margin-left: 7px;
+    transition: box-shadow 0.15s ease-in-out;
+    /* Adaugă o tranziție pentru umbra când se face hover */
+    cursor: pointer;
+}
+
+.structura_produs:hover {
+    box-shadow: 10px 10px 10px rgba(219, 242, 16, 0.15);
+}
+
+.favorite {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+    margin-right: -20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo_favorite {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    /* elimină sublinierea implicită a link-urilor */
+}
+
+.strucura_stele {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.info_tel {
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.info_pret_producator {
+    margin-top: -15px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.stare {
+    margin-left: 20px;
+}
+
+.pret {
+    margin-top: -10px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 26px;
+    color: rgb(208, 6, 6);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button_add {
+    height: 35px;
+    border-radius: 0 7px 0 7px;
+    /* Rotunjirea colțurilor */
+    color: white;
+    background-color: rgb(208, 6, 6);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    margin-left: 18px;
+}
+
+.button_add:hover {
+    background-color: rgb(211, 70, 70);
+}
+
+.text_produs_favorit {
+    width: 40px;
+    margin-left: 95px;
+    margin-bottom: 12px;
+    height: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.structura_produs_favotit {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    border: 1px solid rgb(173, 171, 171);
+    border-radius: 10px;
+    max-width: 240px;
+    height: 490px;
+    width: 280px;
+    margin-left: 7px;
+    padding-right: 5px;
+    transition: box-shadow 0.15s ease-in-out;
+    /* Adaugă o tranziție pentru umbra când se face hover */
+}
+
+.structura_produs_salvat {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    border: 1px solid rgb(173, 171, 171);
+    border-radius: 10px;
+    max-width: 240px;
+    height: 490px;
+    width: 280px;
+    margin-left: 7px;
+    transition: box-shadow 0.15s ease-in-out;
+    /* Adaugă o tranziție pentru umbra când se face hover */
+    padding-left: 5px;
+}
+
+.text_pagina_salvate {
+    margin-top: 150px;
+    margin-left: 58px;
+    font-size: 30px;
+    width: 500px;
+    font-family: Arial, Helvetica;
+}
+
+.div_bottom_salvate {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.nr_de_produse_salvate {
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(208, 6, 6);
+    position: absolute;
+    top: -16px;
+    left: 36px;
+    margin-top: 24px;
+}
+
+.div_bottom_favorite {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.text_pagina_favorite {
+    margin-top: 150px;
+    margin-left: 58px;
+    font-size: 30px;
+    width: 500px;
+    font-family: Arial, Helvetica;
+}
+
+.icon_lipsesc_salvate {
+    width: 400px;
+    height: 300px;
+}
+
+.text_lipsesc_salvate {
+    font-size: 18px;
+    margin-top: -10px;
+    font-family: Arial, Helvetica;
+}
+
+a.button_cos_gol {
+    text-decoration: none;
+}
+
+.button_cos_gol {
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 0 5px 0 5px;
+    color: white;
+    font-family: Arial, Helvetica;
+    background-color: rgb(208, 6, 6);
+}
+
+.button_cos_gol:hover {
+    background-color: rgb(211, 70, 70);
+}
+
+.cosul_gol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 500px;
+    width: 400px;
+}
+
+.activ {
+    transform: scale(1.9);
+    /* 1.2 înseamnă 120% mărime */
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.select_rating {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.retea {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.categorii_de_sortare {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(184, 181, 181);
+    width: 154px;
+    border-radius: 0 5px 0 5px;
+    margin-top: -31px;
+    margin-left: 2px;
+}
+
+.categorie_de_sortare {
+    font-family: Arial, Helvetica;
+    padding-left: 10px;
+    border-top: 2px solid rgb(184, 181, 181);
+    margin-top: -2px;
+    padding-top: 5px;
+    font-size: 14px;
+    margin-bottom: 2px;
+    height: 24px;
+}
+
+.optiuni_de_sortare {
+    width: 165px;
+    border-radius: 0 5px 0 5px;
+    height: 40px;
+    margin-left: 26px;
+    font-family: Arial, Helvetica;
+    border: 2px solid rgb(184, 181, 181);
+}
+
+.ordonare_rating {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.produs_inexistent {
+    margin-left: 350px;
+}
+
+.logo_produs_inexistent {
+    width: 350px;
+}
+
+.text_produs_negasit {
+    font-family: Arial, Helvetica;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.toast {
+    visibility: hidden;
+    width: 300px;
+    background-color: #d4edda;
+    color: #000000;
+    text-align: left;
+    border-radius: 0 5px 0 5px;
+    padding: 12px 16px;
+    position: fixed;
+    /* fix față de fereastra browserului */
+    z-index: 999;
+    top: 140px;
+    /* sus */
+    right: 20px;
+    /* în dreapta */
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.toast2 {
+    visibility: hidden;
+    width: 300px;
+    background-color: white;
+    color: #000000;
+    text-align: left;
+    border-radius: 0 5px 0 5px;
+    padding: 12px 16px;
+    position: fixed;
+    /* fix față de fereastra browserului */
+    z-index: 999;
+    top: 140px;
+    /* sus */
+    right: 20px;
+    /* în dreapta */
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.toast.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.toast.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.toast-icon {
+    font-size: 20px;
+}
+
+.toast-message {
+    flex-grow: 1;
+}
+
+.toast-close {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}

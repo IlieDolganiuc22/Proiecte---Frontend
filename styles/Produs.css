@@ -1,0 +1,283 @@
+.div_top_3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 130px;
+}
+
+.rating_produs {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.nume_produs {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_rating {
+    font-size: 17px;
+    color: rgb(190, 11, 11);
+}
+
+.cod_produs {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.produsul_dorit {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.icon_favorit {
+    width: 30px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.icon_favorit:hover {
+    width: 35px;
+}
+
+.culoare_dorita {
+    font-weight: bold;
+    font-size: 19px
+}
+
+.optiuni {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    gap: 6px;
+}
+
+.optiuni div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.PRP {
+    font-size: 18px;
+}
+
+.pretul {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(208, 6, 6);
+}
+
+.icon_delivery {
+    width: 32px;
+}
+
+.detalii_livrare {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+
+.data_livrarii {
+    font-weight: bold;
+}
+
+.icon_coins {
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.pret_livrare {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    margin-left: -5px;
+}
+
+.cost_transport {
+    font-weight: bold;
+}
+
+.adauga_in_cos {
+    margin-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: none;
+    border-radius: 0 5px 0 5px;
+    color: white;
+    font-family: Arial, Helvetica;
+    background-color: rgb(208, 6, 6);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.adauga_in_cos:hover {
+    background-color: rgb(211, 70, 70);
+}
+
+.culori_disponibile {
+    display: flex;
+    flex-direction: column;
+}
+
+.text_culori {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.alege_culoare {
+    margin-top: -5px;
+}
+
+.culoare_telefon {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgb(158, 154, 154);
+    font-size: 15px;
+}
+
+.garantii {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background-color: #f5f8ff;
+}
+
+.icon_circle {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.asezare_garantii {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.mobil_protect {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.coloana_1 {
+    width: 550px;
+}
+
+.specificatii div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tipuri_de_specificatii {
+    font-size: 20px;
+    color: rgb(208, 6, 6);
+}
+
+.pozitionare_specificatii {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* ✅ aliniază textele la partea de sus */
+    border-bottom: 1px solid #808080;
+}
+
+.specificatia {
+    width: 300px;
+    color: #808080;
+    flex-shrink: 0;
+    /* împiedică micșorarea pe lățime */
+}
+
+.pozitionare_specificatii p:not(.specificatia) {
+    flex: 1;
+    /* ✅ ocupă tot spațiul rămas */
+    word-break: break-word;
+    /* ✅ rupe cuvintele lungi */
+}
+
+.specificatii {
+    display: flex;
+    flex-direction: row;
+}
+
+.coloana_2 {
+    margin-left: 80px;
+}
+
+.produse_similare {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.telefoane {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.afisare_imagine_produs {
+    width: 700px;
+}
+
+.toast {
+    visibility: hidden;
+    width: 300px;
+    background-color: #d4edda;
+    color: #000000;
+    text-align: left;
+    border-radius: 0 5px 0 5px;
+    padding: 12px 16px;
+    position: fixed;
+    /* fix față de fereastra browserului */
+    z-index: 999;
+    top: 140px;
+    /* sus */
+    right: 20px;
+    /* în dreapta */
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.toast.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.toast.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.toast-icon {
+    font-size: 20px;
+}
+
+.toast-message {
+    flex-grow: 1;
+}
+
+.toast-close {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}

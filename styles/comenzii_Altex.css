@@ -1,0 +1,349 @@
+.pagina_toata {
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    /* elimină sublinierea implicită a link-urilor */
+}
+
+.div_top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.logo_altex {
+    width: 150px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.logo_cart {
+    width: 45px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.logo_cont {
+    width: 75px;
+    margin-right: -15px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    width: 425px;
+    height: 45px;
+    border-radius: 0 7px 0 7px;
+    border: 1px solid rgb(184, 181, 181);
+    padding-left: 15px;
+}
+
+.button_cont {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 120px;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+.button_cos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 200px;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+.div_top2 {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: rgb(208, 6, 6);
+    position: fixed;
+    top: 75px;
+    right: 0;
+    left: 0;
+}
+
+.chenar1 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: rgb(208, 6, 6);
+}
+
+.chenar3 {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+}
+
+.chenar2 {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    background-color: rgb(208, 6, 6);
+    justify-content: space-between;
+    color: white;
+    font-family: Arial;
+    min-width: 200px;
+}
+
+.chenar2 div {
+    flex: 1;
+    /* Forțează fiecare div să aibă un spațiu echitabil */
+    display: flex;
+    justify-content: center;
+    /* Centrează textul în interiorul fiecărui div */
+    align-items: center;
+    /* Centrează vertical */
+}
+
+.div_top2_spatiu {
+    margin-right: 10px;
+}
+
+.icon_hamburger {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.part1_chenar2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 15px;
+    border-right: 1px solid white;
+}
+
+.div_secundar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.div_top_3 {
+    margin-top: 170px;
+    margin-left: 600px;
+    background-color: rgb(208, 6, 6);
+    width: 200px;
+    padding-left: 62px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 0 7px 0 7px;
+    font-size: 20px;
+}
+
+.div_center {
+    width: 1000px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 210px;
+    border: 1px solid gray;
+}
+
+.center_part1 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    margin-left: 5px;
+    padding-top: 10px;
+    color: rgb(142, 139, 139);
+}
+
+.center_part2 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
+.extra_garantii {
+    border-bottom: 1px solid gray;
+}
+
+.imagine_produs {
+    width: 100px;
+}
+
+.detalii_produs {
+    display: flex;
+    flex: 3;
+}
+
+.detalii_cod_produs {
+    display: flex;
+    flex: 1;
+}
+
+.detalii_cantitate_produs {
+    display: flex;
+    flex: 1;
+}
+
+.text_detalii_produs {
+    width: 400px;
+    margin-left: 30px;
+}
+
+.text_detalii_cod_produs {
+    display: flex;
+    flex: 1;
+    margin-left: 17px;
+}
+
+.text_cantitate_produs {
+    display: flex;
+    flex: 1;
+    padding-left: 20px;
+}
+
+.center_part3 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+}
+
+.center_part3_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+.center_part3_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.center_part4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 80px;
+    border-bottom: 1px solid gray;
+    color: rgb(142, 139, 139);
+}
+
+.center_part5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nr_de_produse_in_cos {
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(208, 6, 6);
+    position: relative;
+    margin-top: -11px;
+    margin-left: 3px;
+    margin-right: 18px;
+}
+
+.ordonam_comenzile {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+}
+
+.pret {
+    font-size: 17px;
+}
+
+.icon_cos_gol {
+    width: 500px;
+}
+
+.lipsa_comenzi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_lipsa_comenzi {
+    font-size: 20px;
+    margin-top: -10px;
+    font-family: Arial, Helvetica;
+}
+
+a.button_cos_gol {
+    text-decoration: none;
+}
+
+.button_cos_gol {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0 5px 0 5px;
+    color: white;
+    font-family: Arial, Helvetica;
+    background-color: rgb(208, 6, 6);
+}
+
+.button_cos_gol:hover {
+    background-color: rgb(211, 70, 70);
+}
+
+.afisare_extragarantii {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon_extra_garantie {
+    width: 30px;
+    height: 30px;
+}
+
+.extra_garantie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mobile_protect {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
